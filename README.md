@@ -51,7 +51,7 @@ Which segment of the population might benefit the most from the program?
 For those living in food deserts - low access to food store- any racial group sems to be affected.
 For specific populations like low income an poverty level some racial groups seem to be more affected. 
 
-![](assets/distribPerc.png)
+![](assets/correlationCount.png)
 
 I didn't get to estimate the impact on the medical costs. My approach may be correlate level of predictor with hospitalizations. Then correlate the predictor with a variable that can be estimated such us SNAP participants. 
 
