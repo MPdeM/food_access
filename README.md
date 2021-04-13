@@ -1,4 +1,4 @@
-# food_access: Analysis of food insecurity in USA
+# Analysis of food insecurity in USA
 
 Project Summary: The aim of these preliminary analysis is to address food access challenges using publicly available data. 
 
@@ -17,9 +17,10 @@ The analysis was centered on the health outcomes diabetes and obesity as a main 
 I GOT THIS!!
 
 ![](assets/schema.png)
-
+-------------------------------------------------------------------------
 
 ## Pipeline: EXPLORATORY PHASE
+
 ### Pre-processing 
 Both datasets containg > 250 variables per county in USA. The first step is load the data to be merged in a unique csv file. This process can be optimized by loading the data to sql database and fetched directly. 
 ### Exploration
@@ -36,28 +37,34 @@ Select those features that could predict obesity/diabetes.
 ![](assets/correlationCount.png)
 
 ### There are many interesting relationships
+
 Food access is not only a socioeconomic issue but it is a racial equality one.
 
 ![](assets/NHWHITE_BLACK_FREE.png)
 
-## NOTE: THIS IS MORE COMPLEX THAT ANTICIPATED (?!!!)
+**** NOTE: THIS IS MORE COMPLEX THAT ANTICIPATED (?!!!)
 
 ### Model to Predict county locations 
+
 The correlations will be used to scale each relevent variable value using mask to aply weigths according to a pre-defined criteria of relevance*. In this case I focused on the variables that had an strong relatioship with prevalence of diabetes/obesity. I used bining to assign an score based on the 
 quantile distributions. 
 Every county will have assigned a risk score ['lowest (<6)', 'low (6-10)', 'high (10-12)', 'highest (12-15)']. 
-![](assets/riskscore.png)
+
 This risk score will be analyzed against all the other features to characterize the different groups.
-![](assets/riskvis1.png')
+![](assets/riskvis1.png)
 
 *)With this choice of parameters I am already introducing bias. 
+
 ## Geographical locations
 
 The counties with the higher score could be proposed as a condidates for the intervention.
+
+![](assets/riskscore.png)
 ![](assets/highestriskscore.png)
 
 ### Infer medical cost
 Infer medical costs by correlating the predictors to Medicare relevant numbers. 
+-------------------------------------------------------------------------
 
 ## Summary 
 
