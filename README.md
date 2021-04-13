@@ -40,7 +40,7 @@ Food access is not only a socioeconomic issue but it is a racial equality one.
 
 ![](assets/NHWHITE_BLACK_FREE.png)
 
-# THIS IS MORE COMPLEX THAT ANTICIPATED (?)
+## NOTE: THIS IS MORE COMPLEX THAT ANTICIPATED (?!!!)
 
 ### Model to Predict county locations 
 The correlations will be used to scale each relevent variable value using mask to aply weigths according to a pre-defined criteria of relevance*. In this case I focused on the variables that had an strong relatioship with prevalence of diabetes/obesity. I used bining to assign an score based on the 
@@ -48,7 +48,7 @@ quantile distributions.
 Every county will have assigned a risk score ['lowest (<6)', 'low (6-10)', 'high (10-12)', 'highest (12-15)']. 
 ![](assets/riskscore.png)
 This risk score will be analyzed against all the other features to characterize the different groups.
-
+![](assets/riskvis1.png')
 
 *)With this choice of parameters I am already introducing bias. 
 ## Geographical locations
@@ -60,21 +60,27 @@ The counties with the higher score could be proposed as a condidates for the int
 Infer medical costs by correlating the predictors to Medicare relevant numbers. 
 
 ## Summary 
-Where should we deploy a food access program?
-There seems to be a correlation between low acccess to food stores, low income, and race (african-american). The program could target food deserts and promote increase access to healthy food.
 
-Which segment of the population might benefit the most from the program?
-For those living in food deserts - low access to food store- any racial group sems to be affected.
-For specific populations like low income an poverty level some racial groups seem to be more affected. 
+#### Where should we deploy a food access program?
+A food access program could target locations with high percent of population that has low income and low access to stores. We should look into comunities with high number of households that do not own a car and have low access to stores. 
+The type of intervention could take advantage that those clocations tent to have lower number of farmer's markets and are in areas with low ration metro/nonmetro.
+In addition those comunities have been already identified of having greather percent of housholds elegible for SNAP but where the program is not having the desired reach.
 
+#### Which segment of the population might benefit the most from the program?
+It seems that targeting families with school age kids from underserved comunities - African-American - have the potential of having a huge impact.   
 
+The program could target (healthy-)food deserts, use school as a vehicle for reach children and promote comunity access to healthy food.
 
-I didn't get to estimate the impact on the medical costs. My approach may be correlate level of predictor with hospitalizations. Then correlate the predictor with a variable that can be estimated such us SNAP participants. 
+### What do we know about potential impact on medical costs or utilization
+
+To estimate the impact on the medical costs one possible approach could be correlate level of predictor with hospitalizations with affects medical cost. Then correlate the predictor with a variable that can be estimated such us increase of SNAP participants. 
+
+-------------------------------------------------------------------------
 ## Pipeline: 
 
 ![](assets/model.png)
 
----------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 ## Requirements, Data Sources & Notebooks
 
 ### Requirements
