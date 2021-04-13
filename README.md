@@ -1,6 +1,19 @@
-## food_access: Analysis of food insecurity in USA
+# food_access: Analysis of food insecurity in USA
 
-Project Summary: The aim of these preliminary analysis is to address food access challenges using pubicly available data. 
+Project Summary: The aim of these preliminary analysis is to address food access challenges using publicly available data. 
+
+### Why is this important? 
+There is substantial research linking poor nutrition with poor health outcomes. This is particularly true in patients with chronic diseases such as diabetes or heart disease. Poor nutrition is caused not only for the lack of food but for the excess of unhealthy food that leads to obesity which leads to other health problems. The aim is to address questions such as:
+
+- Where should a food access program be deployed?
+- Which segment of the population might benefit the most from the program?
+- What do we know about potential impact on medical costs or utilization?
+
+### Cant't be that bad....
+
+The datasets include information at the county level about more than 500 variables. Those variables are related to access to food stores, access to food programs, poverty level, diet-related conditions (diabesity = diabetes and obesity), race distribution, and many medicare related variables.
+The analysis was centered on the health outcomes diabetes and obesity as a main indicators. Those indicators were used to address questions of where, who and also to predict general economical impact on medical expenses. I GOT THIS!!
+![](assets/schema.png)
 
 ### Requirements
 The main requirements are listed below:
