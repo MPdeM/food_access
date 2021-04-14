@@ -46,7 +46,7 @@ Food access is not only a socioeconomic issue but it is a racial equality one.
 
 ### Model to Predict county locations 
 
-The correlations will be used to scale each relevent variable value using mask to aply weigths according to a pre-defined criteria of relevance*. In this case I focused on the variables that had an strong relatioship with prevalence of diabetes/obesity. I used bining to assign an score based on the 
+The correlations will be used to scale each relevent variable value using mask to apply weigths according to a pre-defined criteria of relevance*. In this case I focused on the variables that had an strong relatioship with prevalence of diabetes/obesity. I used bining to assign an score based on the 
 quantile distributions. 
 Every county will have assigned a risk score ['lowest (<6)', 'low (6-10)', 'high (10-12)', 'highest (12-15)']. 
 
