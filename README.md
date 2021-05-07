@@ -63,7 +63,9 @@ The counties with the higher score could be proposed as a condidates for the int
 ![](assets/highestriskscore.png)
 
 ### Infer medical cost
+
 Infer medical costs by correlating the predictors to Medicare relevant numbers. 
+
 -------------------------------------------------------------------------
 
 ## Summary 
@@ -116,3 +118,4 @@ The datasets were constructed from:
 - data_preprocesing_food.ipynb data loading and reduction of Food Atlas data
 - data_preprocesing_cost.ipynb data loading and reduction of Medicare data
 - food_acccess.ipynb data loading, cleaning, exploring and modeling.
+- food_acccess_model.ipynb data loading, cleaning, exploring and multivariable modeling for feature selection
