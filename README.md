@@ -118,4 +118,4 @@ The datasets were constructed from:
 - data_preprocesing_food.ipynb data loading and reduction of Food Atlas data
 - data_preprocesing_cost.ipynb data loading and reduction of Medicare data
 - food_acccess.ipynb data loading, cleaning, exploring and modeling.
-- food_acccess_model.ipynb data loading, cleaning, exploring and multivariable modeling for feature selection
+- food_acccess_and_predictions.ipynb data loading, cleaning, exploring and multivariable modeling for feature selection
