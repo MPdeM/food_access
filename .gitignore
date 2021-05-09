@@ -1,6 +1,5 @@
-# ignore the data folder
-data/
-
+# ignore the data 'State County All Table 2019'.xlsx
+assets/State_County_All_Table_2019.xlsx
 
 # ignore the caches
 .ipynb_checkpoints/
